@@ -1,0 +1,14 @@
+<html>
+<head>
+    <link rel="stylesheet" href="project.css">
+
+</head>
+<body>
+<div class="header">
+  <a href="project.php">
+    <img src="logo.png" width="170" height="170">
+  </a>
+    <h1>HEALTHCARE WEBSITE</h1>
+</div>
+</body>
+</html>

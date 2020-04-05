@@ -1,0 +1,47 @@
+<html>
+    <head>
+      <?php include("headder.php"); ?>
+        <title>BLOOD BANK</title>
+        <link rel="stylesheet" href="log.css">
+    </head>
+    <body>
+        <a href="project.html">HOME</a>
+        <h2>BLOOD BANK</h2>
+        <form action="" method="post">
+            <div class="bb">
+                <h3>CITY</h3>
+                <select name="city" required>
+                    <option value="" disabled selected hidden>Choose a City</option>
+                    <option value="amd">Ahmedabad</option>
+                    <option value="rjt">Rajkot</option>
+                    <option value="msut">Surat</option>
+                    <option value="vad">Vadodara</option>
+                  </select>
+                  <br>
+                  <h3>BLOOD BANK</h3>
+                  <select name="bank" required>
+                    <option value="" disabled selected hidden>Choose a Blood Bank</option>
+                    <option value="coffee">Ahmedabad</option>
+                    <option value="tea">Rajkot</option>
+                    <option value="milk">Surat</option>
+                    <option value="milk">Vadodara</option>
+                  </select>
+                  <br>
+                  <h3>BLOOD</h3>
+                  <select name="blood" required>
+                    <option value="" disabled selected hidden>Type of Blood</option>
+                    <option value="a+">A+</option>
+                    <option value="a-">A-</option>
+                    <option value="ab+">AB+</option>
+                    <option value="ab-">AB-</option>
+                    <option value="b+">B+</option>
+                    <option value="b-">B-</option>
+                    <option value="o+">O+</option>
+                    <option value="o-">O-</option>
+                  </select>
+                </div>
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+    </body>
+</html>

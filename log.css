@@ -1,0 +1,46 @@
+form{
+    box-sizing: log;
+    width: 50%;
+    border:3px solid gray;
+    margin-left: 350;
+
+    
+}
+
+h2
+{
+  text-align: center;
+}
+
+.log input
+{
+    
+    width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.log button
+{
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 200;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.log button:hover {
+    opacity: 0.8;
+  }
+
+.log a.right
+{
+    float: right;
+    margin-left: 300;
+}
